@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #464646;
+}
+
+.HomeMain {
+    position: fixed;
+}
+
+h1,
+p,
+h2,
+h3,
+h4 {
+    color: #fff;
+}
+
+header {
+    width: 100%;
+
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+
+    margin-top: 1.5rem;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main_input_h1 {
+    padding-right: 1rem;
+    font-size: 5rem;
+    margin-top: 1rem;
+    height: 6rem;
+}
+
+.main_input_h3,
+.main_input_h4 {
+    padding-right: 1rem;
+    font-size: 3rem;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 2rem 1rem;
+}
+
+.border_div {
+    border: .8rem solid;
+    border-radius: 4rem;
+}
+
+.main_body {
+    width: 26rem;
+    height: 50rem;
+    border: .4rem solid #fff;
+    border-radius: 3rem;
+
+    background-color: #2a2f33;
+}
+
+.AC {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.AC div {
+    /* background-color: #24282b; */
+    text-align: center;
+    width: 6rem;
+    height: 6rem;
+
+    border-radius: 1rem;
+    box-shadow: -.3rem -.3rem .4rem #464646, .2rem .2rem .2rem #272727;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.last_ac {
+    display: flex;
+    gap: 1rem;
+}
+
+.plus {
+    height: 13rem !important;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid {
+    position: relative;
+}
+
+.fo_fi_si {
+    position: absolute;
+    width: 18rem !important;
+    height: 15rem;
+    gap: 1rem;
+
+    box-shadow: none !important;
+    bottom: 0rem;
+    left: 0;
+}
+
+.fo_fi_si div:active {
+    box-shadow: unset !important;
+    background-color: #4e4e4e !important;
+}
+
+.minus {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.egual {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bolur {
+    position: relative;
+}
+
+.bolur::after {
+    content: ".";
+}
+
+.bolur::before {
+    content: ".";
+    position: absolute;
+    top: -.5rem;
+    left: -.5rem;
+}
+
+.AC div {
+    cursor: pointer;
+}
+
+.AC div:active {
+    box-shadow: unset;
+    background-color: #4e4e4e;
+}
+
+.AC .fo_fi_si:active {
+    box-shadow: unset !important;
+    background-color: unset !important;
+}
+
+.input_div {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #404040; */
+
+}
+
+#h1 {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    height: 1px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #2a2f33;
+}
+
+#h3 {
+    overflow: scroll;
+}
+
+#h5 {
+    font-size: 2rem;
+    color: coral;
+    width: 40px;
+    top: 0;
+    padding-left: 1rem;
+    align-self: flex-start;
+}
+
+/* .register-container {
+    background-color: #2a2f33;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+} */
+
+/* .register-container h2 {
+    color: #f8b400;
+    margin-bottom: 1rem;
+}
+
+.register-container label {
+    color: #ffffff;
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.register-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.submit-button {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ffcc00;
+} */

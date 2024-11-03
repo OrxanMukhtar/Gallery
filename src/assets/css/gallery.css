@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-align: center;
+    background-color: #007bff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 100;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  h1 a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px 0; */
+    color: #fff;
+    z-index: 100;
+  }
+  
+  .navbar-button,
+  .upload-button {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .homebtn {
+    width: 30px;
+  }
+  
+  .addbtn {
+    width: 40px;
+  }
+  
+  
+  .settingbtn1 {
+    background: none;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .pinChngBtn {
+    background-color: #007bff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .upload-button {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .gallery-item {
+    position: relative;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.3s ease;
+  }
+  
+  /* .gallery-item:hover {
+    transform: scale(1.05);
+  } */
+  
+  img,
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Three dots icon and dropdown menu styling */
+  .three-dots-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    color: #888;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+  }
+  
+  .three-dots-menu:hover {
+    color: #333;
+  }
+  
+/* gallery.css */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 1000;
+  top: 40px;
+  right: 20px;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.three-dots-menu {
+  cursor: pointer;
+}
+  
+  .dropdown-option {
+    padding: 10px;
+    text-align: left;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #pinModal {
+    margin: 60px 0;
+  }
+

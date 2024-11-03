@@ -1,0 +1,41 @@
+button {
+    background-color: unset;
+    border: none;
+}
+.homebtn,
+.addbtn,
+.settingbtn {
+    width: 40px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.modal {
+    margin-top: 40px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal button {
+    background-color: #fff !important;
+    padding: 10px;
+    text-decoration: underline;
+    color: blue;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.firstLabel {
+    margin-top: 10px;
+}
+
+.close {
+    font-size: 25px;
+    color: red;
+    text-shadow: 0 0 5px #fff;
+    cursor: pointer;
+    text-align: right;
+    display: block;
+}
