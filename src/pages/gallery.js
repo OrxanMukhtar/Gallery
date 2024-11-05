@@ -13,7 +13,7 @@ const Gallery = () => {
   const [newPin, setNewPin] = useState("");
   const [db, setDb] = useState(null);
   const fileInputRef = useRef(null);
-  const dropdownRef = useRef(null); // Reference for the dropdown menu
+  // const dropdownRef = useRef(null); // Reference for the dropdown menu
   const [dropdownRefs, setDropdownRefs] = useState([]);
 
   // Initialize IndexedDB on component mount
